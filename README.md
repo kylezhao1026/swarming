@@ -47,10 +47,6 @@ Access settings from the gear icon in the top nav to:
 - Rename your couple space
 - Unpair from your partner if needed
 
-## Support
-
-If you enjoy using lovely, visit the **Support the Developer** section in Settings to buy the developer a coffee.
-
 ## For Developers
 
 ### Local Setup

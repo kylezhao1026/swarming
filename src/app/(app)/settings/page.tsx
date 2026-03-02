@@ -118,22 +118,6 @@ export default function SettingsPage() {
         {saved ? "Saved!" : saving ? "Saving..." : "Save Changes"}
       </button>
 
-      <div className="bento-cell space-y-4 text-center">
-        <Ghost size={56} mood="lovestruck" color="#fda4af" />
-        <div>
-          <h2 className="text-base font-bold text-gray-700 dark:text-slate-100">Love using lovely?</h2>
-          <p className="text-sm text-gray-500 dark:text-slate-300 mt-1">Support the developer to keep this project alive</p>
-        </div>
-        <a
-          href="https://buymeacoffee.com/lovely"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block text-sm font-semibold py-2.5 px-6 rounded-xl bg-amber-400 hover:bg-amber-500 text-white transition-all"
-        >
-          Buy me a coffee ☕
-        </a>
-      </div>
-
       <div className="bento-cell space-y-3 border-rose-200/50 dark:border-slate-700">
         <h2 className="text-base font-bold text-gray-600 dark:text-slate-200 uppercase tracking-wider">Account</h2>
         {settings?.space && (
